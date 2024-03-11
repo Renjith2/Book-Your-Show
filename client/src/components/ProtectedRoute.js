@@ -3,7 +3,7 @@ import React,{useEffect} from 'react'
 import {GetCurrentUser} from '../apicalls/users'
 import {useNavigate} from 'react-router-dom'
 import {useDispatch,useSelector} from 'react-redux'
-import {SetUser, setUser} from '../redux/userSlice'
+import {SetUser} from '../redux/userSlice'
 import {HideLoading,ShowLoading} from '../redux/loaderSlice'
 
 function ProtectedRoute({children}){
