@@ -1,9 +1,9 @@
 
 import React, { useEffect , useState } from "react";
-import { Col, message, Row, Table } from "antd";
+import { message } from "antd";
 import { useDispatch } from "react-redux";
 import { HideLoading, ShowLoading } from "../../redux/loaderSlice";
-import { GetAllMovies, GetMovieById } from "../../apicalls/movies";
+import { GetMovieById } from "../../apicalls/movies";
 import { useNavigate, useParams } from "react-router-dom";
 import moment from "moment";
 import { GetAllTheatresByMovie } from "../../apicalls/theatres";

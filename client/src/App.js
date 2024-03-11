@@ -15,7 +15,6 @@ import Profile from "./page-tt/Profile";
 import Admin from "./page-tt/Admin";
 import TheatresForMovie from "./page-tt/TheatresForMovies";
 import BookShow from "./page-tt/BookShow";
-import Bookings from "./page-tt/Profile/Bookings";
 function App() {
   const { loading } = useSelector((state) => state.loaders);
   return (
